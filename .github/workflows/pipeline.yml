@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Get Conatiner Status
-        run: docker-compose ps 
+        run: docker-compose ps -a 
